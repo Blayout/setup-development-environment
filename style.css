@@ -88,14 +88,15 @@ a:focus {
   justify-content: center;
   margin: 0% auto;
 }
-
+#photo_main: {
+  display: flex,
+  justifiy_content: center;
+  width: 50px;
+}
 p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1em;
-  font-weight: 500
-  JUSTIFY-CONTENT: center;
-    TEXT-ALIGN: center;
-    MARGIN: 20PX 50PX;
+  margin:50px;
+  background-color: #000046;
+  
 }
 
 h1 {
