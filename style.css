@@ -89,19 +89,27 @@ a:focus {
   margin: 0% auto;
 }
 #photo_main {
-  display: flex,
-  justifiy_content: center;
-  width: 50px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 0px auto;
 }
 p {
-  margin:50px;
-  background-color: #000046;
+  margin: 50px;
+  background-color: #2c5d72;
+  padding: 50px;
   
+}
+.char{
+  display: inline-block;
+  transform: translateY(50px);
+  transition: transform 0s;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-size: 3em;
+  font-size:xx-large;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 #se {
