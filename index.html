@@ -1,76 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Set up your development environment - Mettez en place votre environnement de développement</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <style>
-    .squares {
-      display: flex;
-      width: 80%;
-      margin: auto;
-      justify-content: center;
-      transform: translateY(150px);
-    }
-    .square {
-      margin: 0 10px;
-      height: 120px;
-      width: 120px;
-      position: relative;
-    }
-    .square.o {
-      background-color: #ababab;
-    }
-    .square.tw {
-      background-color: #ababab;
-    }
-    .square.t {
-      background-color: #ababab;
-    }
-    .text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: -1;
-    }
-  </style>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Quiz time!</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          </div>
-        </li>
-      </ul>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Accueil - Robbie Lens Photographie</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+<!--*************************************************BODY*************************************************************-->
+  <body>
+    <header>
+    <div id="right">
+      <h1>Photographie</h1>
+      <img
+        src="images/appareil-photo-photographe.png"
+        alt="logo du site"
+        id="logo"
+      />
     </div>
-  </nav>
+   </header>
+   
+  <nav>
+    <ul>
+      <li><a href="#" class="menu">
+            Amerique</a>
+          </li>
+        <li>
+            <a href="#" class="menu">Afrique</a>
+        </li>
+        <li>
+            <a href="#" class="menu">Russie</a>
+        </li>
+        <li>
+            <a href="#" class="menu">Europe</a>
+        </li>
+    </ul>
+</nav>
+      
 
-  <div class="squares">
-    <div class="square o"></div>
-    <div class="square tw">
-      <span class="text">5</span>
+  <main>
+    <section>
+      <h2>Présentation</h2>
+    <p class="ma_class">
+      Bonjour, je suis Julien,<span class="ma_class2"
+        >professionnelle vivant à la montagne.</span
+      >
+      Je capture la beauté des paysages et des moments uniques à travers des
+      images intemporelles.
+      <span class="important">Découvrez mon travail sur mon site !</span>
+    </p>
+    <p id="photo">la photo ici</p>
+      <p>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour 
+        calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise 
+        en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum
+        Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer 
+        une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. 
+        Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum
+      </p>
+    <p>
+      <a href="images/photographe_zoom.jpg">
+        <img
+          src="images/photographe.jpg"
+          alt="appareil photo dans une main."
+          title="appareil photo"
+        />
+      </a>
+      <p>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour 
+        calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise 
+        en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum
+        Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer 
+        une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. 
+        Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum
+      </p>
+    </p>
+    </section>
+    
+  </main>
+  
+
+    <!---******************************************FOOTER******************************************************************-->
+    <footer>
+        
+      <a href="dossier-demo/a-propos.html" id="a_propos">À propos</a>
+      <a target="_blank" href="https://twitter.com/"
+        ><img
+          src="images/twitter.png"
+          alt="logo_twitter"
+          class="logo_media" /></a
+      ><a target="_blank" href="https://www.instagram.com/"
+        ><img
+          src="images/instagram.png"
+          alt="logo_instagram"
+          class="logo_media"
+      /></a>
     </div>
-    <div class="square t"></div>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-  <script>
-
-  </script>
-</body>
+</footer>
+  </body>
 </html>

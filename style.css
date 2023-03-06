@@ -1,0 +1,123 @@
+h1 {
+  color: #873e23;
+  text-align: center;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}
+
+h2 {
+  text-align: center;
+  background: linear-gradient(#aa4b6b, #6b6b83, #3b8d99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 45%;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+ul{
+  display: flex;
+  justify-content:center;
+    list-style-type: none;
+    position: fixed;
+
+  }
+
+
+li{
+  margin: 30px 50px;
+
+}
+.menu:hover{
+
+  border-bottom: solid 3px white;
+}
+
+.menu{
+  text-decoration: none;
+  margin: 20px 40px ;
+}
+.ma_class {
+  color: black;
+}
+.ma_class2 {
+  color: #873e23;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  text-decoration-color: green;
+}
+
+a:focus {
+  background-color: bisque;
+  color: white;
+  outline-color: red;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-left: 49%;
+  margin-right: 49%;
+}
+#photo {
+  font-size: 25px;
+  background-color: skyblue;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+  padding: 1px;
+  text-align: center;
+  border-width: 2px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 0% auto;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 500
+  JUSTIFY-CONTENT: center;
+    TEXT-ALIGN: center;
+    MARGIN: 20PX 50PX;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+}
+
+#se {
+  color: aqua;
+}
+.important {
+  text-decoration: underline;
+}
+
+.logo_media {
+  width: 50px;
+  height: auto;
+  margin: 0px 5px 0 5px;
+}
+
+img:hover {
+  opacity: 0.7;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
