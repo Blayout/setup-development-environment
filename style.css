@@ -19,18 +19,20 @@ h2 {
 body {
   background-color: cadetblue;
 }
+nav{
+  background-color: #3b8d99;
+}
 
 ul{
   display: flex;
   justify-content:center;
     list-style-type: none;
-    position: fixed;
-
   }
 
 
 li{
   margin: 30px 50px;
+  font-size: x-large;
 
 }
 .menu:hover{
@@ -41,7 +43,9 @@ li{
 .menu{
   text-decoration: none;
   margin: 20px 40px ;
+  color: white;
 }
+
 .ma_class {
   color: black;
 }
@@ -50,7 +54,7 @@ li{
 }
 
 a:hover {
-  color: red;
+  color: rgb(233, 233, 233);
 }
 
 a:active {
@@ -66,9 +70,7 @@ a:focus {
 #logo {
   width: 50px;
   height: 50px;
-  display: flex;
-  margin-left: 49%;
-  margin-right: 49%;
+
 }
 #photo {
   font-size: 25px;
