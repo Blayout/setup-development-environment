@@ -19,3 +19,19 @@ gsap.to(".shadow", {
 
 const loader = document.querySelector(".loader")
 window.addEventListener("load", () => {  loader.style.display ="none"})
+
+
+
+
+/* Title Script */
+
+const myText = new SplitType('#right')
+
+gsap.from ('.char', {
+    y : 0,
+    stagger: 0.10,
+    delay: 0.2,
+    duration : .4,
+   
+
+})
